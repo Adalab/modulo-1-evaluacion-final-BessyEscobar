@@ -17,10 +17,13 @@
     border: $color-bg;
   }
   ul { 
-    // list-style: none;
     li {
       margin: 0.8rem;
       list-style: none;
+      a {
+        color: $color-bg;
+        text-decoration: none;
+      }
     }
   }
   .main-list {
@@ -39,17 +42,22 @@
 
 }
 
-@media all and (min-width: 1200px) {
-  .cr {
+@media all and (min-width: 768px)and (max-width: 2000px) {
+  .list-box {
     display: flex;
-    order: 1;
-  }
-  .main-list {
-    display: flex;
-    order: 2;
-  }
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+
+    .cr {
+      margin-top: 2rem;
+      order: 1;
+    }
+    .main-list {
+      order: 2;
+    }
   .social-list {
-    display: flex;
     order: 3;
   }
+ }
 }
+  
