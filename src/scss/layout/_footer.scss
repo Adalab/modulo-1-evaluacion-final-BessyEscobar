@@ -1,8 +1,55 @@
 .page__footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+  font-family: $font-main;
+  color: $color-bg;
+  font-size: 1rem;
+  background-color: #304268;
+  text-align: center;
+  .footer-button {
+    background-color: $color-bg;
+    margin-top: -5rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 2rem;
+    border: $color-bg;
+  }
+  ul { 
+    // list-style: none;
+    li {
+      margin: 0.8rem;
+      list-style: none;
+    }
+  }
+  .main-list {
+  
+    margin: 2rem 0rem 2rem 0rem;
+  }
+  .social-list {
+    margin: 2rem 0rem 2rem 0rem;
+  }
+  .cr {
+    font-size: 0.8rem;
+    p {
+      margin: 0.5rem;
+    }
+  }
+
+}
+
+@media all and (min-width: 1200px) {
+  .cr {
+    display: flex;
+    order: 1;
+  }
+  .main-list {
+    display: flex;
+    order: 2;
+  }
+  .social-list {
+    display: flex;
+    order: 3;
+  }
 }

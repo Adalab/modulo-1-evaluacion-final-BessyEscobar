@@ -1,6 +1,106 @@
 body {
-  padding: 2rem;
+  padding: o;
   height: 100vh;
   background-color: $color-bg;
   font-family: $font-main;
 }
+
+.ft-p {
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.2rem;
+  font-family: $font-main;
+  .mini-title {
+    font-family: $font-main;
+    color: $color-babyblue;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .ft-title {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-family: $font-title;
+  }
+  .ft-button {
+    font-family: $font-main;
+    margin-top: 1rem;
+    color: $color-button;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: solid;
+    background-color: $color-bg;
+  }
+}
+
+.three-reasons {
+  padding: 0.3rem;
+  text-align: center;
+  background-color: $color-iceblue;
+  .sec-title {
+    font-family: $font-title;
+    margin: 1.5rem 1rem 0rem 1em;
+    font-size: 24px;
+    color: $color-text;
+  }
+  .three-boxes {
+    margin: 2rem 4rem;
+    font-size: 18px;
+    font-family: $font-main;
+  }
+  .three-title {
+    font-family: $font-title;
+    margin-bottom: 0.5rem;
+  }
+  .sec-buttom {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 3.8rem;
+    color: $color-bg;
+    width: 184px;
+    height: 45px;
+    border-radius: 2rem;
+    border: solid;
+    background-color: $color-button;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .ft-p {
+    font-size: 1.4rem;
+  }
+  .mini-title {
+    font-family: $font-main;
+    color: $color-babyblue;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .ft-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: $font-title;
+  }
+  .three-boxes {
+      margin: 2rem 4rem;
+      font-size: 18px;
+      font-family: $font-main;
+    }
+  .three-title {
+    font-family: $font-title;
+    margin-bottom: 0.5rem;
+  }
+  .sec-buttom {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 3.8rem;
+    color: $color-bg;
+    width: 184px;
+    height: 45px;
+    border-radius: 2rem;
+    border: solid;
+    background-color: $color-button;
+  }
+}
+
