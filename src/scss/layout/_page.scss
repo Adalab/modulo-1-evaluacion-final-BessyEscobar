@@ -39,6 +39,9 @@ body {
   padding: 0.3rem;
   text-align: center;
   background-color: $color-iceblue;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   .sec-title {
     font-family: $font-title;
     margin: 1.5rem 1rem 0rem 1em;
@@ -56,8 +59,7 @@ body {
   }
   .sec-buttom {
     font-size: 20px;
-    margin-top: 1rem;
-    margin-bottom: 3.8rem;
+    margin: 1rem 4rem 2.8rem 4rem;
     color: $color-bg;
     width: 184px;
     height: 45px;
@@ -69,38 +71,71 @@ body {
 
 @media all and (min-width: 768px) {
   .ft-p {
-    font-size: 1.4rem;
-  }
-  .mini-title {
-    font-family: $font-main;
-    color: $color-babyblue;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-  .ft-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-family: $font-title;
-  }
-  .three-boxes {
-      margin: 2rem 4rem;
-      font-size: 18px;
-      font-family: $font-main;
-    }
-  .three-title {
-    font-family: $font-title;
-    margin-bottom: 0.5rem;
-  }
-  .sec-buttom {
     font-size: 20px;
-    margin-top: 1rem;
-    margin-bottom: 3.8rem;
-    color: $color-bg;
-    width: 184px;
-    height: 45px;
-    border-radius: 2rem;
-    border: solid;
-    background-color: $color-button;
+    .mini-title {
+      font-size: 14px;
+    }
+    .ft-title {
+      font-size: 26px;
+    }
+    .ft-button {
+      font-size: 20px;
+    }
   }
+  .three-reasons {
+    font-size: 26px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    .sec-title{
+      margin: 2rem 0rem 0rem 0em;
+      grid-area: 1 / 2;
+    }
+    .three-boxes {
+      font-size: 20px;
+      margin: 0rem 1rem;
+      grid-area: 2;
+    }
+    .sec-buttom {
+      margin: 2rem 4rem 2rem 4rem;
+      grid-area: 3 / 2;
+    }
+  }
+
+  @media all and (min-width: 1024px) {
+    .ft-p {
+      font-size: 20px;
+      .mini-title {
+        font-size: 16px;
+      }
+      .ft-title {
+        font-size: 32px;
+      }
+      .ft-button {
+        font-size: 20px;
+      }
+    }
+    .three-reasons {
+      font-size: 32px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      .sec-title{
+        margin: 2rem 0rem 0rem 0em;
+        grid-area: 1 / 2;
+      }
+      .three-boxes {
+        font-size: 20px;
+        margin: 0rem 1rem;
+        grid-area: 2;
+      }
+      .sec-buttom {
+        font-size: 20px;
+        margin: 2rem 4rem 2rem 4rem;
+        grid-area: 3 / 2;
+      }
+    }  
+  }
+
 }
 
