@@ -47,6 +47,13 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
+    .ft-list {
+      order: 1;
+      text-align: left;
+    }
+    .social-media {
+      text-align: left
+    }
 
     .cr {
       margin-top: 2rem;
@@ -55,7 +62,7 @@
     .main-list {
       order: 2;
     }
-  .social-list {
+    .social-list {
      order: 3;
     }
  }
