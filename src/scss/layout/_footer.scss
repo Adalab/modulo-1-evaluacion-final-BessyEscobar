@@ -44,6 +44,7 @@
 
 @media all and (min-width: 768px)and (max-width: 2000px) {
   .list-box {
+    text-align: left;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
