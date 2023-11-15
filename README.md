@@ -1,14 +1,14 @@
 ## Module evaluation 1
 
-Here you can see my first technical evaluation exercise. It is a web page appropriate to the designs previously delivered.
+Here you can see my first technical evaluation exercise. It is a web page based on the corporate identity previously delivered.
 
 ## Prerequisites
 
-1.- static button in the upper corner and with a link to the Adalab page
+1.- Static button in the upper corner and with a link to the Adalab page
 2.- "Anonymous Proxy" module packaged with flexbox and occupying the top of the browser.
 3.- Module "Looking Through A Window" made with optional CSS style
 4.- Module "3 Reason to Purchase" created with CSS Grid
-5.- "Networks" module laid out with flexbox and with links to Adalab
+5.- "Networks" module laid out with flexbox and with links to Adalab's web page.
 
 ## Tools and programming languages 🛠 |
 
